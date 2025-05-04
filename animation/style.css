@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    background-color: yellow;
+    border: 2px solid red;
+    height: 215px;
+}
+
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    height: 212px;
+    width: 212px;
+
+    animation-name: kunal;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-direction: alternate;
+
+}
+
+@keyframes kunal {
+    
+    0%{
+        width: 212px;
+        background-color: orange;
+    }
+
+    30%{
+        width: 35%;
+        background-color: blueviolet;
+    }
+
+    65%{
+        width: 66%;
+        background-color: azure;
+    }
+
+    100%{
+        width:100%;
+        background-color: green;
+    }
+}
+
+/* @keyframes kunal {
+    
+    from{
+        width: 212px;
+    }
+
+    to{
+        width: 100%;
+    }
+} */
