@@ -1,6 +1,6 @@
 .container{
     height: 700px;
-    border: 1ps solid red;
+    border: 1px solid red;
     background-color: yellow;
 
     display: grid;
